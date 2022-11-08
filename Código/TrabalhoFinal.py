@@ -34,3 +34,34 @@ while True:
 
         elif valores ['user'] == 'Zeus' and valores ['pasword'] == 'zeus':
             print('Deus dos deuses e pai dos olimpianos. Sua habilidade e de dominar os raios. Ele e responsável por cuidar do olimpo.\n Foi ele quem prendeu Dyname no reino de Hades por medo de seu proprio destino e realizou a pratica proibida de consultar o oraculo para saber seu futuro, e o boss mais forte.')
+
+        elif valores ['user'] == 'Cerberus' and valores ['pasword'] == 'cerberus':
+            print('Cão de tres cabecas que guarda a porta do inferno, reino de Hades.')
+
+        elif valores ['user'] == 'Medusa' and valores ['pasword'] == 'medusa':
+            print('Medusa é uma mulher com serpentes no lugar do cabelo, simbolicamente é trágica, soliutária e uma figura de uma mulher incapaz de amar e ser amada.')
+
+#Testes
+        elif valores ['user'] != 'Taryn' and valores ['pasword'] != 'taryn':
+            print('Nao consta em nosso cadastro')
+
+        elif valores ['user'] != 'Dyname' and valores ['pasword'] != 'dyname':
+            print('Nao consta em nosso cadastro')
+
+        elif valores ['user'] != 'Poseidon' and valores ['pasword'] != 'poseidon':
+            print('Nao consta em nosso cadastro')
+
+        elif valores ['user'] != 'Hades' and valores ['pasword'] != 'hades':
+            print('Nao consta em nosso cadastro')
+
+        elif valores ['user'] != 'Zeus' and valores ['pasword'] != 'zeus':
+            print('Nao consta em nosso cadastro')
+
+        elif valores ['user'] != 'Medusa' and valores ['pasword'] != 'medusa':
+            print('Nao consta em nosso cadastro')
+
+        elif valores ['user'] != 'Cerberus' and valores ['pasword'] != 'cerberus':
+            print('Nao consta em nosso cadastro')
+
+        else:
+            print("O código está funcionando corretamente!")
